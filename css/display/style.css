@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;}
+body{
+    font-family: tahoma;
+    font-size: 32px;
+    padding: 100px 40px 0px 40px;
+}
+h1{
+    margin-bottom: 30px;
+}
+p{
+    margin-bottom: 30px;
+
+}
+p.one{
+    background-color: #fd0;
+}
+span{
+    display: block;
+}
+p.one span{
+    background-color: red;
+    /* display: inherit ; */
+    /* display: list-item; */
+}
+p.two{
+    background-color: #fd0;
+}
+.flex{
+    height: 50px;
+    border: 2px red solid;
+    display: flex;
+    float: left;
+    width: 100px;
+}
+.main div{
+    width: 100px;
+    height: 50px;
+    display: flex;
+}

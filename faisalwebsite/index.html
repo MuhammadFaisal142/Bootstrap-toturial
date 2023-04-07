@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Faisal Blog!</title>
+  </head>
+  <body>
+    <header class="main_header">
+        <div class="d-flex justify-content-center align-items-center flex-column py-5">
+            <h1 class="main_heading">FAISAL TECHNICAL</h1>
+            <p calss="main_heading_para">Welcome to my <span  class="text-capitalize bg-dark text-white py-2">world of Blog</span> </p>
+        </div>
+        <!-- The main images -->
+        <div class="main_header_div d-flex align-self-start justify-content-center pl-5 flex-column shadow " >
+         <p>Faisal Technical</p>
+         <h2 class="animateword">
+          <span>He is </span> 
+          <div id="scroll-container">
+            <ul>
+              <div id="scroll-text"> Programmer</div>
+              <div id="scroll-text">a Youtuber</div>
+              <div id="scroll-text">a Awesome</div>
+              
+
+            </ul>
+          </div>
+         </h2> 
+         <button type="button"  class="btn btn-light" >subscribe</button>
+        </div>
+    </header>
+
+
+    <!-- header ends -->
+    <!-- two side div -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- to get the left and right side div space -->
+        <div clas="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5 ">
+          <div class="row gx-5 mx-sm-auto">
+            <!-- to get the left side of the div space -->
+            <div class="col-lg-8 col-md-11 col-11 mx-auto">
+              <!-- out first past code -->
+              <div class="col-12 card p-4 shadow blog_left_div">
+                <div class="d-flex justify-content-center align-items-center flex-column pt pb-5">
+                  <h1>BEST LAPTOP IN 2020</h1>
+                  <p calss="blog-title">
+                    <span class="fw-bold">Title description ,</span> Aug 12,2020 </p>
+              </div>
+              <figure class="right0_side_image mb-5">
+                <img src="pexels-vera-cires-41227.jpg" alt="" class="img-fluid shadow
+                ">
+              </figure>
+              <p><span class="fw-bold">Faisal Technical</span>
+                A blog, also known as weblog, is a type of website that is like a diary or journal. Blog organizes content in the form of categories and posts. Posts on a blog are presented in reverse chronological order. That means your latest post goes to the top of the page.
+              </p>
+              <p>Posts on a blog are presented in reverse chronological order. That means your latest post goes to the top of the page.</p>
+              <div class="d-flex justify-content-between left_div_btns">
+                <div>
+               <button class="left_div_like" id="like_btn">
+                <i class="fa-duotone fa-thumbs-up"></i> Like
+               </button>
+
+              </div>
+              <div>
+                <button class="left_div_reply" onclick="reply(reply1')" >
+                 <i class="fa-duotone fa-thumbs-up"></i> Reply
+                </button> <badge class="bg-white text-dark p-2">1</badge>
+                
+               </div>
+            </div>
+            <div class="replies" id="reply1">
+              <div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3"></div>
+              <div class="reply_im mx-2 align-items-center" ></div>
+              <img src="icon.png" alt="">
+            </div>
+            <div class="reply_text_left">
+              <P class="blog_title"> 
+                <span class="fw-bold">Faisal,</span>Aug 12,2020, 7:20 PM
+              </P>
+              <p>Awesome, Bro I love your content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
